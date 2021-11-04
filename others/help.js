@@ -16,14 +16,11 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Panda Bot ✨**`)
+    .setTitle(`**Only Bot ✨**`)
     .setDescription(`
  **|** **User Commands**
 > \`invite\` - \`support\` - \`about\`
-> \`ping\` - \`prefix\` - \`uptime\`
-> \`tinvites\` - \`sug\` - \`roleuser\`
-> \`report\`
-
+> \`ping\` - \`uptime\`
 
 
 **|** **Music Commands**
@@ -34,34 +31,9 @@ module.exports = {
 > \`lyrics\` . \`radio\`
 
 
-
-**|** **Moderation Commands**
-> \`ban\` . \`unban\` . \`setnick\`
-> \`roleadd\` . \`roleremove\` . \`vkick\`
-> \`setprefix\` . \`clear\` . \`close\`
-> \`open\` . \`senddm\` . \`createchannel\`
-> \`deletechannel\`
-
-
-
-
-**|** **Gif Commands**
-> \`boy\` . \`girl\` . \`couple\`
-> \`sad\` . \`cartoon\` . \`anime\`
-> \`neon\
-
-
-
-
-**|** **Game Commands**
-> \`kiss\` . \`slap\` . \`hug\`
-
-
-
-
 **|** **Links**
-[Support](https://discord.gg/progresshome)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
+[Support]()
+[Invite](https://discord.com/api/oauth2/authorize?client_id=727556655818080457&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
