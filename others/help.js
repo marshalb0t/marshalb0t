@@ -31,6 +31,12 @@ module.exports = {
 > \`lyrics\` . \`radio\`
 
 
+**|** **Gif Commands**
+> \`boy\` . \`girl\` . \`couple\`
+> \`sad\` . \`cartoon\` . \`anime\`
+> \`neon\`
+
+
 **|** **Links**
 [Support]()
 [Invite](https://discord.com/api/oauth2/authorize?client_id=727556655818080457&permissions=8&scope=bot)
