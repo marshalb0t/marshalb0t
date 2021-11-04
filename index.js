@@ -812,7 +812,7 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(`Type: ${PREFIX}help - Panda Bot`, { type: "PLAYING"});
+    client.user.setActivity(`Type: ${PREFIX}help - Only Bot ✨`, { type: "PLAYING"});
     client.user.setActivity(`Type: ${PREFIX}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
   
@@ -865,13 +865,13 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("About Panda Bot.", "https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png")
-    .setThumbnail(`https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png `)
+    .setAuthor("About Only Bot ✨", "")
+    .setThumbnail(` `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/progresshome)
+[{Support}]()
 
 [{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
 
@@ -885,7 +885,7 @@ Online
 19/6/2021
 
 **{Prefix Bot}** :
-$
+${prefix}
 
 `)
 
@@ -904,13 +904,13 @@ $
     .setDescription (`
 {Links}
 
-[{Support}](https://discord.gg/progresshome)
+[{Support}]()
 -
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)`)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=727556655818080457&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**{Support  Panda Bot}**`) 
-    .setThumbnail(`https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png `)
+    .setTitle(`**{Support  Only Bot ✨}**`) 
+    .setThumbnail(``)
     .setTimestamp()
     
     //send the Message
@@ -979,4 +979,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by Aquaman#5186 
+//Bot coded by BlackMan#4644
